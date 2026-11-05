@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.nbconvert/
+
+# ML artefacts
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+*.npz
+*.npy
+runs/
+logs/
+wandb/
+checkpoints/
+lightning_logs/
+
+# Data — adjust if Stage 1 showed different folder names
+data/
+datasets/
+*.csv
+*.zip
+*.tar.gz
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
